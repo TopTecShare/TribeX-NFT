@@ -50,7 +50,7 @@ export default function MintContent(props) {
     }
   });
   const [nftQuantity, setNftQuantity] = useState(2);
-  const [maxNftQuantity, setMaxNftQuantity] = useState(3);
+  const [maxNftQuantity, setMaxNftQuantity] = useState(2);
   const [minNftQuantity, setMinNftQuantity] = useState(1);
   const [nftPrice, setNftPrice] = useState(0.08);
   const [showTermsModal, setShowTermsModal] = useState(false);
